@@ -1,5 +1,4 @@
 #!/bin/python3
-# T8 Nume
 # By Jonathan Schleucher @Imathnathan
 # Solves 2x2 Linear equations, both with and without pivoting
 
@@ -8,7 +7,7 @@ from decimal import *
 
 
 # Setze Dezimalstellen auf vier
-getcontext().prec = 26
+getcontext().prec = 4
 
 # Setze A
 A = [[0, 0], [0, 0]]
@@ -21,7 +20,7 @@ b = [0, 0]
 b[0] = Decimal(input())
 b[1] = Decimal(input())
 
-# shallow copy to stored input and Pivotvariant
+# shallow copy in gespeicherten input und Pivotvariante
 APivot = [val for val in A]
 Ain = [val for val in A]
 bPivot = [val for val in b]
