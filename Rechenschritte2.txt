@@ -1,0 +1,21 @@
+Pivotisierung
+Direkt: ([[Decimal('1000'), Decimal('2.200E+7')], [Decimal('110.5'), Decimal('1.000')]], [Decimal('4.000E+7'), Decimal('30.00')])
+Pivot: ([[Decimal('1000'), Decimal('2.200E+7')], [Decimal('110.5'), Decimal('1.000')]], [Decimal('4.000E+7'), Decimal('30.00')])
+Stufenform
+Direkt: ([[Decimal('1000'), Decimal('2.200E+7')], [Decimal('0.0'), Decimal('-2.431E+6')]], [Decimal('4.000E+7'), Decimal('-4.420E+6')])
+Pivot: ([[Decimal('1000'), Decimal('2.200E+7')], [Decimal('0.0'), Decimal('-2.431E+6')]], [Decimal('4.000E+7'), Decimal('-4.420E+6')])
+Normalisierte 2. Zeile
+Direkt: ([[Decimal('1000'), Decimal('2.200E+7')], [Decimal('-0.0000'), Decimal('1')]], [Decimal('4.000E+7'), Decimal('1.818')])
+Pivot: ([[Decimal('1000'), Decimal('2.200E+7')], [Decimal('-0.0000'), Decimal('1')]], [Decimal('4.000E+7'), Decimal('1.818')])
+Rücksubstitution
+Direkt: ([[Decimal('1000'), Decimal('0E+4')], [Decimal('-0.0000'), Decimal('1')]], [Decimal('0E+4'), Decimal('1.818')])
+Pivot: ([[Decimal('1000'), Decimal('0E+4')], [Decimal('-0.0000'), Decimal('1')]], [Decimal('0E+4'), Decimal('1.818')])
+Erste Zeile normalisiert.
+Direkt: ([[Decimal('1'), Decimal('0E+4')], [Decimal('-0.0000'), Decimal('1')]], [Decimal('0E+4'), Decimal('1.818')])
+Pivot: ([[Decimal('1'), Decimal('0E+4')], [Decimal('-0.0000'), Decimal('1')]], [Decimal('0E+4'), Decimal('1.818')])
+A input = [[Decimal('1000'), Decimal('2.200E+7')], [Decimal('110.5'), Decimal('1.000')]]
+b input = [Decimal('4.000E+7'), Decimal('30.00')]
+x_1 = 0E+4
+x_2 = 1.818
+x_1 Pivot = 0E+4
+x_2 Pivot = 1.818
