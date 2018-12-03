@@ -13,4 +13,4 @@ the first and second row may be swapped such that A_11 is greater then A_21.
 - Arithmetic is entirely based on python3.7s decimal module.
 
 ## Results
-The resulting solutuions for the pivoted as well as for the unpivoted System A|b are given as output.
+The resulting solutions for the pivoted as well as for the unpivoted System A|b are given as output.
