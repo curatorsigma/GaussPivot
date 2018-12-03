@@ -1,0 +1,23 @@
+Pivotisierung
+[[Decimal('0.001000'), Decimal('22.00')], [Decimal('442.0'), Decimal('4.000')]] [Decimal('40.00'), Decimal('120.0')]
+[[Decimal('442.0'), Decimal('4.000')], [Decimal('0.001000'), Decimal('22.00')]] [Decimal('120.0'), Decimal('40.00')]
+A21/A11 = 4.42E+5
+A21/A11 = 0.000002262
+Stufenform
+[[Decimal('0.001000'), Decimal('22.00')], [Decimal('0.0'), Decimal('-9.724E+6')]] [Decimal('40.00'), Decimal('-1.768E+7')]
+[[Decimal('442.0'), Decimal('4.000')], [Decimal('0.000000'), Decimal('22.00')]] [Decimal('120.0'), Decimal('40.00')]
+Normalisierte 2. Zeile
+[[Decimal('0.001000'), Decimal('22.00')], [Decimal('-0.0000'), Decimal('1')]] [Decimal('40.00'), Decimal('1.818')]
+[[Decimal('442.0'), Decimal('4.000')], [Decimal('0.0000'), Decimal('1')]] [Decimal('120.0'), Decimal('1.818')]
+Rücksubstitution
+[[Decimal('0.001000'), Decimal('0.00')], [Decimal('-0.0000'), Decimal('1')]] [Decimal('0.00'), Decimal('1.818')]
+[[Decimal('442.0'), Decimal('0.000')], [Decimal('0.0000'), Decimal('1')]] [Decimal('112.7'), Decimal('1.818')]
+Erste Zeile normalisiert.
+[[Decimal('1'), Decimal('0E+4')], [Decimal('-0.0000'), Decimal('1')]] [Decimal('0E+4'), Decimal('1.818')]
+[[Decimal('1'), Decimal('0.00')], [Decimal('0.0000'), Decimal('1')]] [Decimal('0.2550'), Decimal('1.818')]
+A input = [[Decimal('0.001000'), Decimal('22.00')], [Decimal('442.0'), Decimal('4.000')]]
+b input = [Decimal('40.00'), Decimal('120.0')]
+x_1 = 0E+4
+x_2 = 1.818
+x_1 Pivot = 0.2550
+x_2 Pivot = 1.818
